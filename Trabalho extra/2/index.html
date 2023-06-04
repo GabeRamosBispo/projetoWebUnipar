@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+<head>
+    <title>Calculadora de Ingredientes para Omelete</title>
+</head>
+<body>
+    <h1>Calculadora de Ingredientes para Omelete</h1>
+    <form id="omeleteForm">
+        <label for="qtdPessoas">Quantidade de pessoas:</label>
+        <input type="number" id="qtdPessoas" min="0" required><br><br>
+        
+        <input type="submit" value="Calcular">
+    </form>
+    
+    <div id="resultado" style="display:none;">
+        <h2>Ingredientes Necessários:</h2>
+        <p>Serão necessários <span id="qtdOvos"></span> ovos e <span id="qtdQueijo"></span> gramas de queijo.</p>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

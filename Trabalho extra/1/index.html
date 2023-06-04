@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+<head>
+    <title>Calculadora de Variação do Dólar</title>
+</head>
+<body>
+    <h1>Calculadora de Variação do Dólar</h1>
+    <form id="cotacaoForm">
+        <label for="cotacaoAtual">Cotação do dólar atual:</label>
+        <input type="number" step="0.01" id="cotacaoAtual" required><br><br>
+        
+        <input type="submit" value="Calcular">
+    </form>
+    
+    <div id="resultado" style="display:none;">
+        <h2>Valores Calculados:</h2>
+        <p>Se a cotação do dólar subir 1%, ficará em: $<span id="valorSubida1"></span></p>
+        <p>Se a cotação do dólar subir 2%, ficará em: $<span id="valorSubida2"></span></p>
+        <p>Se a cotação do dólar subir 5%, ficará em: $<span id="valorSubida5"></span></p>
+        <p>Se a cotação do dólar subir 10%, ficará em: $<span id="valorSubida10"></span></p>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

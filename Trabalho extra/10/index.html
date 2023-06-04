@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+<head>
+    <title>Analise de Meta de Vendas</title>
+</head>
+<body>
+    <h1>Analise de Meta de Vendas</h1>
+
+    <label for="valorVendido">Valor Vendido:</label>
+    <input type="number" id="valorVendido"><br>
+
+    <label for="meta">Meta:</label>
+    <input type="number" id="meta"><br>
+
+    <label for="metaMinima">Meta Mínima:</label>
+    <input type="number" id="metaMinima"><br>
+
+    <button onclick="calcularMeta()">Calcular</button>
+
+    <h2>Resultado:</h2>
+    <p id="resultado"></p>
+    <p id="percentualMeta"></p>
+    <p id="percentualMetaMinima"></p>
+</body>
+<script src="script.js"></script>
+</html>

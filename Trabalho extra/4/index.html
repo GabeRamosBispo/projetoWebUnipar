@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+<head>
+    <title>Pedido de Pizza</title>
+</head>
+<body>
+    <h1>Pedido de Pizza</h1>
+    <label for="sabor1">Sabor 1:</label>
+    <input type="text" id="sabor1"><br>
+
+    <label for="sabor2">Sabor 2:</label>
+    <input type="text" id="sabor2"><br>
+
+    <label for="sabor3">Sabor 3:</label>
+    <input type="text" id="sabor3"><br>
+
+    <label for="sabor4">Sabor 4:</label>
+    <input type="text" id="sabor4"><br>
+
+    <label for="refrigerantes">Quantidade de Refrigerantes:</label>
+    <input type="number" id="refrigerantes"><br>
+
+    <button onclick="calcularTotal()">Calcular</button>
+
+    <h2>Resumo do Pedido:</h2>
+    <p id="sabores"></p>
+    <p id="totalPizza"></p>
+    <p id="totalRefrigerante"></p>
+    <p id="total"></p>
+</body>
+<script src="script.js"></script>
+</html>
