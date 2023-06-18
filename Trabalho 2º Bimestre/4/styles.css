@@ -1,0 +1,45 @@
+html{
+    background-color: rgb(106, 101, 101);
+    line-height: 35px;
+}
+body {
+    font-family: Arial, sans-serif;
+    color: whitesmoke;
+}
+div{
+    background-color: black;
+}
+
+.div1 {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #cdcbcb;
+    border-radius: 5px;
+}
+
+.div2 {
+    margin-bottom: 20px;
+}
+
+.div2 label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.div2 input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.button1 {
+    text-align: center;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+}

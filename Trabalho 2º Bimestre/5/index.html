@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+<head>
+    <title>Calculadora de Abastecimento</title>
+</head>
+<body>
+    <div class="Abastecimento">
+    <h1>Calculadora de Abastecimento</h1>
+    <form id="abastecimento">
+        <label for="precoLitro">Preço do litro da gasolina:</label>
+        <input type="number" step="0.01" id="precoLitro" required><br><br>
+        
+        <label for="valorPagamento">Valor do pagamento:</label>
+        <input type="number" step="0.01" id="valorPagamento" required><br><br>
+        
+        <input type="submit" value="Calcular">
+    </form>
+    
+    <div id="resultado" style="display:none;">
+        <h2>Resultado:</h2>
+        <p>O motorista conseguiu abastecer <span id="litrosAbastecidos"></span> litros no tanque.</p>
+    </div>
+</div>
+</body>
+<script src="script.js"></script>
+</html>

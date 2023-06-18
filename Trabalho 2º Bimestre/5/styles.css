@@ -1,0 +1,17 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(65, 65, 65);
+    color:whitesmoke;
+    text-align: center;
+    
+}
+.Abastecimento{
+    background-color: black;
+    position: relative;
+    height: 80%;
+    align-items: center;
+    border:white 1px;
+    border-radius: 5px;
+    
+
+}
